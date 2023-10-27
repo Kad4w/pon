@@ -1,0 +1,226 @@
+<style>
+	.pon{
+		background: #0088f0; 
+		border: none; 
+		padding: 13px 95px;
+		color: white;
+		margin-top: 20px;
+	}
+	.text{
+		color: #00ff5e;
+		margin-top:10px;
+		font-size:22px;
+	}
+	.title{
+		color: #ffa600;
+		font-size: 25px;
+	}
+	.fastbtn{
+		color: white; 
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.main{
+		background: #1c1c1c; 
+		width: 1500px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		font-family: 'Comic Sans MS';
+	}
+	.head{
+		height: 100px; 
+		display: flex;
+	}
+	.head-logo-block{
+		width: 250px; 
+		padding-top: 30px; 
+		padding-left: 50px;
+	}
+	.head-links-block{
+		width: 500px;
+		margin-left: 250px; 
+		text-align: center; 
+		padding-top: 35px; 
+		font-family: 'Comic Sans MS'
+	}
+	.head-profile-block{
+		width: 250px; 
+		margin-left: 250px; 
+		display: flex
+	}
+	.head-profile-left-block{
+		width: 150px; 
+		text-align: center; 
+		padding-top: 35px; 
+		font-family: 'Comic Sans MS'
+	}
+	.head-profile-right-block{
+		width: 50px; 
+		height: 50px; 
+		margin-left: 50px; 
+		margin-top: 25px;
+	}
+	.banner{
+		background-image: url(bg.png); 
+		background-size: 100%; 
+		height: 500px;
+	}
+	.banner-text-block{
+		margin-left: auto; 
+		margin-right: auto; 
+		height: 250px; 
+		width: 750px; 
+		text-align: center; 
+		padding-top: 100px; 
+		box-sizing: border-box;
+	}
+	.banner-title{
+		color: white;
+		font-size: 60px;
+	}
+	.banner-text{
+		color: white;
+		font-size: 30px;
+	}
+	.movies-list{
+		width: 1300px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		text-align: left;
+	}
+	.row{
+		display: flex;
+	}
+	.movie-block{
+		width: 300px; 
+		margin-left: 25px;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.movie-block:hover{
+		background: orange;
+		transition: 0.3s;
+		border-radius: 10px;
+	}
+</style>
+<div class="main">
+	<div class="head">
+		<div class="head-logo-block">
+			<img src="logo.svg">
+		</div>
+		<div class="head-links-block">
+			<a href="#" class="fastbtn">Мое кино</a>
+			<a href="#" class="fastbtn">Магазин</a>
+			<a href="#" class="fastbtn">Буду смотреть</a>
+			<a href="#" class="fastbtn">Покупки</a>	
+		</div>
+		<div class="head-profile-block">
+			<div class="head-profile-left-block">
+				<a href="#" class="fastbtn">Установить на ТВ</a>
+			</div>
+			<div class="head-profile-right-block">
+				<img src="profile.png" style="height: 50px;">
+			</div>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="banner-text-block">
+			<h1 class="banner-title">Миллиарды</h1>
+			<p class="banner-text">Миллиардер против прокурора - большие люди, большие деньги, большие проблемы. Для фанатов «Карточного дома»</p>
+		</div>
+	</div>
+	<div class="movies-list">
+		<h3 class="title">Новинки</h3>
+		<div class="row">
+			<div class="movie-block">
+				<img src="film1.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film2.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film3.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film4.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+		</div>
+		<h3 class="title">Популярные</h3>
+		<div class="row">
+			<div class="movie-block">
+				<img src="film1.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film2.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film3.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film4.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+		</div>
+		<h3 class="title">Выбираем сегодня</h3>
+		<div class="row">
+			<div class="movie-block">
+				<img src="film1.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film2.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film3.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film4.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+		</div>
+		<h3 class="title">В тренде: приключения</h3>
+		<div class="row">
+			<div class="movie-block">
+				<img src="film1.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film2.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film3.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+			<div class="movie-block">
+				<img src="film4.png" style="width: 250px;">
+				<button class="pon">Смотреть</button>
+				<p class="text">от 599 ₽</p>
+			</div>
+		</div>	
+	</div>
+</div>
